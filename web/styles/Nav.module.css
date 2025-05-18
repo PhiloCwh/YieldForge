@@ -1,0 +1,47 @@
+.title {
+  color: #000000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+
+.title img {
+  margin-right: 10px;
+}
+
+.tab {
+  padding: 0.3rem 1rem;
+  color: #0B0B0F;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+
+
+.connectWalletBtn {
+  color: #000000;
+  background: #6971B2;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 6px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.banner {
+  background: #ffffff;
+  color: #0B0B0F;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 80px;
+}

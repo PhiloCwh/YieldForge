@@ -1,0 +1,438 @@
+.first,
+.second,
+.thired {
+    position: relative;
+    display: flex;
+    top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {}
+
+.img1 {
+    position: absolute;
+    top: 0px;
+    left: 40px
+}
+
+.img2 {
+    position: absolute;
+    top: 90px;
+    left: 150px
+}
+
+.img3 {
+    position: absolute;
+    top: 300px;
+    left: 0px
+}
+
+.img4 {
+    position: absolute;
+    top: 0px;
+    left: 950px
+}
+
+.img5 {
+    position: absolute;
+    top: 200px;
+    left: 700px
+}
+
+.img6 {
+    position: absolute;
+    top: 500px;
+    left: 550px
+}
+
+.img7 {
+    position: absolute;
+    top: 600px;
+    left: 200px
+}
+
+.beebear1 {
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 100px;
+}
+
+.beebear2 {
+    position: absolute;
+    z-index: 2;
+    top: -100px;
+    right: 5%;
+}
+
+.second {
+    position: relative;
+    top: 700px;
+}
+
+.thired {
+    position: relative;
+    top: 1700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ans {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.ans1 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.ans2 {
+    position: absolute;
+    top: 150px;
+    left: 1200px;
+}
+
+.ellips {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.name {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.star {
+    position: absolute;
+    top: 300px;
+    left: 5px;
+}
+
+.ansbee1 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+
+.ansbee2 {
+    position: absolute;
+    top: 400px;
+    right: 10%;
+}
+
+.tokenBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.b1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+}
+
+.des {
+    width: 700px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+@keyframes slideInOut {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    90% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    animation: slideInOut 5s ease-in-out infinite;
+}
+
+.img2 {
+    animation-delay: 0.5s;
+}
+
+.img3 {
+    animation-delay: 1s;
+}
+
+.img4 {
+    animation-delay: 1.5s;
+}
+
+.img5 {
+    animation-delay: 2s;
+}
+
+.img6 {
+    animation-delay: 2.5s;
+}
+
+.img7 {
+    animation-delay: 3s;
+}
+
+@keyframes flashAndMove {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(-5px);
+    }
+}
+
+.ans1,
+.ans2 {
+    animation: flashAndMove 1s ease-in-out infinite;
+}
+
+.swap {
+    position: absolute;
+    top: 2260px;
+    height: 500px;
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+}
+
+.club {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.clubTitle {
+    color: #fdec2d;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.clubdes {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.clubBtn {
+    margin-top: 26px;
+    font-size: 60px;
+    color: black;
+    background-color: #fdec2d;
+    border-radius: 40px;
+    padding: 16px 60px;
+    cursor: pointer;
+}
+
+.clubBtn:hover {
+    background-color: #746D21;
+}
+
+.swap1 {
+    position: absolute;
+    left: 0;
+    top: 40px;
+
+}
+
+.swap2 {
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+.footer {
+    position: relative;
+    top: 2240px;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+.foo1 {
+    position: absolute;
+    top: 20px;
+}
+
+.foo2 {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.foo3 {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
+.foo4 {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+
+.foo5 {
+    position: absolute;
+    left: 70%;
+    top: 20px;
+}
+
+.foo6 {
+    position: absolute;
+    top: 20px;
+    left: 80%;
+}
+
+.foo7 {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+}
+
+.foo8 {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.foo9 {
+    position: absolute;
+    top: 20px;
+    left: 60%;
+}
+
+.footer {
+    display: flex;
+    /* 使用 flexbox 布局 */
+    overflow: hidden;
+    /* 隐藏超出容器的部分 */
+    white-space: nowrap;
+    /* 防止换行 */
+}
+
+.foo1,
+.foo2,
+.foo3,
+.foo4,
+.foo5,
+.foo6,
+.foo7,
+.foo8,
+.foo9 {
+    display: inline-block;
+    /* 保持图片在一行内 */
+    animation: slideIn 10s linear infinite;
+    /* 应用动画 */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        /* 从右边进入 */
+        opacity: 0;
+        /* 从透明开始 */
+    }
+
+    20% {
+        opacity: 1;
+        /* 渐变到可见 */
+    }
+
+    80% {
+        opacity: 1;
+        /* 保持可见 */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* 移动到左边 */
+        opacity: 0;
+        /* 逐渐消失 */
+    }
+}
+
+/* 每个元素的动画延迟时间 */
+.foo1 {
+    animation-delay: 0s;
+}
+
+.foo2 {
+    animation-delay: 1s;
+}
+
+.foo3 {
+    animation-delay: 2s;
+}
+
+.foo4 {
+    animation-delay: 3s;
+}
+
+.foo5 {
+    animation-delay: 4s;
+}
+
+.foo6 {
+    animation-delay: 5s;
+}
+
+.foo7 {
+    animation-delay: 6s;
+}
+
+.foo8 {
+    animation-delay: 7s;
+}
+
+.foo9 {
+    animation-delay: 8s;
+}
